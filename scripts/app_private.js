@@ -579,7 +579,7 @@
         formData.append("file", file);
             
         $.ajax({
-          url: "https://api.ipfscloud.store/file/private",
+          url: "https://azania-neptune-labs.github.io/Afro-Cloud/",
           type: "POST",
           data: formData,
           processData: false,
@@ -628,7 +628,7 @@
         
 
         $.ajax({
-          url: "https://api.ipfscloud.store/folder/private",
+          url: "https://azania-neptune-labs.github.io/Afro-Cloud/",
           type: "POST",
           enctype: 'multipart/form-data',
           data: formData,
@@ -754,7 +754,7 @@
               if(j%6==0){
                 str_folders = str_folders + '<div class="row">';
               }
-
+//https://azania-neptune-labs.github.io/Afro-Cloud/
               name = "";
 
               if(val.name.length<=7){
@@ -1490,7 +1490,7 @@
             body: "Following documents are shared with you. https://gateway.ipfs.io/ipfs/"+document.getElementById("clipboard").value
        };
        $.ajax({
-        url: "https://api.ipfscloud.store/email",
+        url: "https://azania-neptune-labs.github.io/Afro-Cloud/",
         type: "POST",
         data: email,
         contentType: 'application/x-www-form-urlencoded',
@@ -1622,7 +1622,7 @@
       formData.append("id", highlighted_keys[0]);
 
       $.ajax({
-          url: "https://api.ipfscloud.store/delete",
+          url: "https://azania-neptune-labs.github.io/Afro-Cloud/",
           type: "POST",
           enctype: 'multipart/form-data',
           data: formData,
